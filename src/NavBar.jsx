@@ -1,20 +1,24 @@
+import { Link } from 'react-router-dom';
 import Logo from './assets/Logobg.svg';
-import './App.css';
 import About from './assets/About.svg';
-
+import './App.css';
 
 function NavBar() {
   return (
-    <>    
-
-      <div>
-          <div class="HeadingBar" >
-            <div ><a href="/index.html"><img class="HeadingItem" src={Logo} className="logo" alt="Logo" /></a></div>
-            <div ><a href="/about.html"><img class="HeadingItem" src={About} className="logo" alt="Logo" /></a></div>
-          </div>
+    <div>
+      <div className="HeadingBar">
+        <div>
+          <Link to="/">
+            <img className="logo" src={Logo} alt="Home" />
+          </Link>
+        </div>
+        <div>
+          <Link to="/about">
+            <img className="logo" src={About} alt="About" />
+          </Link>
+        </div>
       </div>
-
-    </>
+    </div>
   );
 }
 
