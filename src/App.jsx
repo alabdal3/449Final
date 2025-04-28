@@ -1,5 +1,4 @@
 import { Routes, Route } from 'react-router-dom';
-import Logo from '/Logobg.png';
 import './App.css';
 import MemeGenerator from './memes';
 import NavBar from './NavBar'

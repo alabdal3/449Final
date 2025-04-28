@@ -1,7 +1,5 @@
-import Logo from '/Logobg.png';
 import './App.css';
 import SpinningImage from './SpinningImage';
-import NavBar from './NavBar'
 import EmotionData from './emotionData';
 
 
