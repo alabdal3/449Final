@@ -8,7 +8,6 @@ import EmotionData from './emotionData';
 function AbtApp() {
   return (
     <>
-      <NavBar />
       
       <div className="title">
       <h1 class="title">About Vibe Checker</h1>
